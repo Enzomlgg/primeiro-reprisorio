@@ -1,0 +1,129 @@
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Stargo';
+    src: url('../fonts/Stargo.ttf');
+}
+
+@font-face {
+    font-family: 'Citizen Carto';
+    src: url('../fonts/Citizen\ Carto.otf');
+}
+
+header{
+    background-color: #6F1A07;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Citizen Carto';
+    font-size: 40px;
+    margin: 10px;
+}
+
+header nav{
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#logo-texto {
+    display: flex;
+    align-items: center;
+    margin-right: 750px;
+}
+
+#logo{
+    height: 100%;
+}
+
+nav a:hover{
+    color: #F7F3E3;
+}
+
+#fundo-produto {
+    background-color: #ffffff;
+    border-color: white;
+    border-style: dotted;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+}
+
+select {
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    border-style: double;
+    border-color: white;
+    color: white;
+    background-color: #666;
+    font-family: 'Citizen Carto';
+}
+
+#fundo-produto img {
+    background-color: #f5f5f5;
+    border-color: white;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+#fundo-produto img {
+    max-width: 450px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#infor-produto {
+    align-items: center;
+}
+
+#infor-produto h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#infor-produto p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+footer{
+    margin-top: auto;
+    color: white;
+    background-color: #212121;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}

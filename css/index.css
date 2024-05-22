@@ -1,0 +1,186 @@
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Stargo';
+    src: url('../fonts/Stargo.ttf');
+}
+
+@font-face {
+    font-family: 'Citizen Carto';
+    src: url('../fonts/Citizen\ Carto.otf');
+}
+
+header{
+    background-color: #6F1A07;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Citizen Carto';
+    font-size: 40px;
+    margin: 10px;
+}
+
+header nav{
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#logo-texto {
+    display: flex;
+    align-items: center;
+    margin-right: 750px;
+}
+
+#logo{
+    height: 100%;
+}
+
+nav a:hover{
+    color: #F7F3E3;
+}
+
+footer{
+    margin-top: auto;
+    color: white;
+    background-color: #212121;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.banner {
+    margin-top: 15px;
+}
+
+/** Banner Nike **/
+#nike-content {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/banner_nike.png");
+    background-size: cover;
+    opacity: 0.9;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nike-content a {
+    opacity: 0;
+    margin-top: 200px;
+    background-color: #A8763E;
+    color: white;
+    text-decoration: none;
+    font-family: "Stargo";
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+#nike-content a:hover{
+    background-color: #F7F3E3;
+    color: #6F1A07;
+}
+
+#nike-content:hover {
+    a {
+        opacity: 1;
+        transition: opacity 1s linear;
+    }
+}
+
+/** Banner adidas **/
+#adidas-content {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/banner_adidas.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#adidas-content a {
+    opacity: 0;
+    margin-top: 200px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: "Stargo";
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+#adidas-content a:hover{
+    background-color: #c9c5ba;
+    color: white;
+}
+
+#adidas-content:hover {
+    a {
+        opacity: 1;
+        transition: opacity 1s linear;
+    }
+}
+
+/** Banner Puma **/
+#puma-content {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/banner_puma.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#puma-content a {
+    opacity: 0;
+    margin-top: 200px;
+    background-color: #c60d13;
+    color: white;
+    text-decoration: none;
+    font-family: "Stargo";
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+#puma-content a:hover{
+    background-color: white;
+    color: #6F1A07;
+}
+
+#puma-content:hover {
+    a {
+        opacity: 1;
+        transition: opacity 1s linear;
+    }
+}
